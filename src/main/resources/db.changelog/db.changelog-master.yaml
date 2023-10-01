@@ -1,0 +1,11 @@
+databaseChangeLog :
+  - include:
+      file: classpath:/db/changelog/changes/schema.sql
+
+  - include :
+      file : classpath:/db/changelog/insertion-staff.xml
+
+  - include:
+      file: classPath:/db/changelog/changes/insertion.sql
+
+
